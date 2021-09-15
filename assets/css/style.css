@@ -1,0 +1,23 @@
+body {
+    background-color: cyan;
+}
+
+header {
+    background-image: url("../images/headerbackground.jpeg.jpg");
+    color: white;
+    padding: 1%;
+}
+
+main img {
+    width: 20%;
+}
+
+footer {
+    background-image: url("../images/headerbackground.jpeg.jpg");
+    color: white;
+    padding: 1%;
+}
+
+a {
+    margin: 5px;
+}
