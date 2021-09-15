@@ -29,6 +29,7 @@ main {
 }
 
 figcaption {
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -36,4 +37,33 @@ figcaption {
 
 .my-work {
     background-color: black;
+}
+
+div {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+
+    .first-project {
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;
+    }
+
+    .auxillary {
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 50%;
+    }
 }
