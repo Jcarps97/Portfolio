@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: fuchsia;
+    background-color: darkcyan;
 }
 
 header {
@@ -11,7 +11,7 @@ header {
     padding: 1%;
 }
 
-main img {
+#picture-me {
     width: 10%;
 }
 
@@ -20,36 +20,45 @@ footer {
     padding: 1%;
 }
 
-a {
-    margin: 5px;
+.contact{ 
+    margin: 10px;
 }
 
-main {
+caption {
+    margin: 5px;
     display: flex;
+    align-items: center;
+    justify-items: center;
 }
 
 figcaption {
-    margin: 5px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-}
-
-.my-work {
     background-color: black;
+
 }
 
-div {
-    display: inline-flex;
-    align-items: center;
-    justify-items: center;
-    
+#my-work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.first-project{
+    height: 250px;
+    width: 400px;
+    contain: content;
+}
+
+.auxillary {
+    height: 250px;
+    width: 250px;
+    contain: content;
 }
 
 @media screen and (max-width: 768px) {
 
     main {
-        display: inline-block;
+        display:inline-table;
         flex-wrap: wrap;
     }
 
