@@ -12,7 +12,8 @@ header {
 }
 
 #picture-me {
-    width: 10%;
+    height: 250px;
+    width: 225px;
 }
 
 footer {
@@ -22,13 +23,6 @@ footer {
 
 .contact{ 
     margin: 10px;
-}
-
-caption {
-    margin: 5px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
 }
 
 figcaption {
@@ -44,35 +38,17 @@ figcaption {
 }
 
 .first-project{
+    
     height: 250px;
     width: 400px;
     contain: content;
 }
 
 .auxillary {
+    
     height: 250px;
     width: 250px;
     contain: content;
+
 }
 
-@media screen and (max-width: 768px) {
-
-    main {
-        display:inline-table;
-        flex-wrap: wrap;
-    }
-
-    .first-project {
-        flex-wrap: wrap;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 100%;
-    }
-
-    .auxillary {
-        flex-wrap: wrap;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 50%;
-    }
-}

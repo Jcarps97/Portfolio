@@ -5,7 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jack's Portfolio for HW2</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css"></link>
+    <title>Jack's Updated Portfolio</title>
 </head>
 <header>
     <h1>Jack's Coding Portfolio</h1>
@@ -25,31 +40,28 @@
 </header>
 <body>
     <section>
-        <main id="about-me"></main>
+        <main class="row" id="about-me"></main>
             <h2>About Me</h2>
-            <img id="picture-me" src="./assets/images/picture for portfolio.jpeg.jpg" alt="picture of me">
-                <caption>
+            <img class="col-12" id="picture-me" src="./assets/images/picture for portfolio.jpeg.jpg" alt="picture of me">
+            <div class="col-12">
                     I was born and raised in Minnesota, living mostly in the city of Edina, with a brief part of my childhood spent in St. Cloud. I then moved to Missouri for college, getting a Bachelor's in Anthropology. 
                     I am a few years out of college now and looking for something new. I decided to take up coding as a means of making money and supporting myself! Please enjoy my work!
-                <caption>
+            <div>
                 
     </section>
-    <section>
+    <section class="container">
         <h2>My Work</h2>
-        <section id="my-work">
-                <figure>
-                    <div class="first-project"><a target="_blank" href="https://github.com/Jcarps97/prework-about-me.git"> <img src="assets/images/portfoliopic1.jpg" alt="placeholder img project 1"></a></div>
-                    <figcaption class="imagecaption1">My First Webpage</figcaption>
+        <section class="row" id="my-work">
+                <figure class="col-12">
+                    <div class="first-project"><a target="_blank" href="https://github.com/kembo001/mealPlan.git">My First Project<img src="assets/images/portfoliopic1.jpg" alt="placeholder img project 1"></a></div>
                 </figure>
                 
-                <figure>
-                    <div class="auxillary"><a target="_blank" href="https://github.com/Jcarps97/semantic-tagging.git"> <img src="assets/images/portfoliopic2.jpg" alt="placeholder img project 2"></a></div>
-                    <figcaption class="imagecaption2">Semantic Tagging Assignment</figcaption>
+                <figure class="col-12">
+                    <div class="auxillary"><a target="_blank" href="https://github.com/Jcarps97/quiz-assignment.git">Popculture Quiz<img src="assets/images/portfoliopic2.jpg" alt="placeholder img project 2"></a></div>
                 </figure>
                  
-                <figure>
-                    <div class="auxillary"><a target="_blank" href="https://github.com/Jcarps97/01miniproject.git"> <img src="assets/images/portfoliopic3.jpg" alt="placeholder img project 3"></a></div>
-                    <figcaption class="imagecaption3">Group Webpage Project</figcaption>
+                <figure class="col-12">
+                    <div class="auxillary"><a target="_blank" href="https://github.com/Jcarps97/weather-dashboard.git">Weather Dashboard<img src="assets/images/portfoliopic3.jpg" alt="placeholder img project 3"></a></div>
                 </figure>
         </section>
     </section>
@@ -60,4 +72,6 @@
             <a class= "contact" href="https://github.com/Jcarps97/Portfolio"> Github </a>
     </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </html>
